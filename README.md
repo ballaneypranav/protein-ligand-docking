@@ -28,7 +28,7 @@ gmx pdb2gmx -f protein.pdb -o 1-pdb2gmx.gro -ff charmm36-feb2021 -water tip3p 2>
 
 ### 2. Combine structures and topologies
 
-Follow the sections titled "Build the Complex" and "Build the Topology" described [here](http://www.mdtutorials.com/gmx/complex/02_topology.html).
+Follow the sections titled "Build the Complex" and "Build the Topology" described [here](http://www.mdtutorials.com/gmx/complex/02_topology.html). Make sure the filename of the complex is `2-complex.gro`.
 
 ### 3. Generate bounding box
 ```
